@@ -226,6 +226,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = redbear;
 				TargetAttributes = {
+					195DCBBC18F3E78300B134DB = {
+						DevelopmentTeam = XJVPMBUQMS;
+					};
 					195DCBDD18F3E78300B134DB = {
 						TestTargetID = 195DCBBC18F3E78300B134DB;
 					};
@@ -407,10 +410,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleChat/SimpleChat-Prefix.pch";
 				INFOPLIST_FILE = "SimpleChat/SimpleChat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziook.SimpleChat;
 				PRODUCT_NAME = SimpleChat;
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,10 +426,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleChat/SimpleChat-Prefix.pch";
 				INFOPLIST_FILE = "SimpleChat/SimpleChat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziook.SimpleChat;
 				PRODUCT_NAME = SimpleChat;
 				WRAPPER_EXTENSION = app;
 			};

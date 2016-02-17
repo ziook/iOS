@@ -168,6 +168,8 @@ NSTimer *rssiTimer;
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
+    [textField resignFirstResponder];
+    
     NSString *text = textField.text;
     NSNumber *form = [NSNumber numberWithBool:NO];
     
@@ -191,6 +193,8 @@ NSTimer *rssiTimer;
     }
     
     textField.text = @"";
+    
+    //[textField resignFirstResponder];
     
     return YES;
 }
@@ -247,7 +251,9 @@ NSTimer *rssiTimer;
     
     NSNumber *form = [NSNumber numberWithBool:NO];
     NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"", TEXT_STR, form, FORM, nil];
-    [tableData addObject:dict];
+    if (![[dict objectForKey:TEXT_STR]  isEqual: @""]){
+        [tableData addObject:dict];
+    }
     [_tableView setContentOffset:CGPointMake(0, CGFLOAT_MAX)];
     [_tableView reloadData];
     

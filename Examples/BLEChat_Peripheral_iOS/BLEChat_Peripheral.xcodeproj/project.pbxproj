@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = redbear;
 				TargetAttributes = {
+					19CE46E318B5DAD9008E8B62 = {
+						DevelopmentTeam = XJVPMBUQMS;
+					};
 					19CE470418B5DAD9008E8B62 = {
 						TestTargetID = 19CE46E318B5DAD9008E8B62;
 					};
@@ -379,9 +382,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLEChat_Peripheral/BLEChat_Peripheral-Prefix.pch";
 				INFOPLIST_FILE = "BLEChat_Peripheral/BLEChat_Peripheral-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziook.BLEChat-Peripheral";
 				PRODUCT_NAME = BLEChat_Peripheral;
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +397,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLEChat_Peripheral/BLEChat_Peripheral-Prefix.pch";
 				INFOPLIST_FILE = "BLEChat_Peripheral/BLEChat_Peripheral-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziook.BLEChat-Peripheral";
 				PRODUCT_NAME = BLEChat_Peripheral;
 				WRAPPER_EXTENSION = app;
 			};
